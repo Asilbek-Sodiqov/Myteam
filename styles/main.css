@@ -407,21 +407,7 @@ img {
     padding: 0 20px;
   }
 }
-  padding: 0 24px;
-}
-
-@media only screen and (min-width: 700px) {
-  .container {
-    padding: 0 40px;
-  }
-}
-@media only screen and (min-width: 1000px) {
-  .container {
-    padding: 0 20px;
-  }
-}
 .site-header {
-  position: relative;
   position: relative;
   padding-top: 48px;
   padding-bottom: 40px;
@@ -463,55 +449,7 @@ img {
 
 .site-header__nav-wrapper {
   position: absolute;
-  position: absolute;
   display: none;
-  width: 200px;
-  height: 100vh;
-  padding: 56px 24px 0 48px;
-  top: 0;
-  right: 0;
-  z-index: 5;
-  background-color: #2c6269;
-  background-image: url("../images/headerdeco.svg");
-  background-size: 100px 200px;
-  background-position: right bottom;
-  background-repeat: no-repeat;
-}
-
-.site-header__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-  list-style: none;
-  margin-bottom: 36px;
-  row-gap: 24px;
-}
-
-.site-header__link {
-  text-decoration-line: none;
-  font-size: var(--main-services-title-font-size);
-  font-weight: var(--main-text-font-weight);
-  line-height: var(--main-hero-text-line-height);
-  color: var(--main-text-color);
-}
-
-.site-header__contact {
-  display: inline-block;
-  padding: 6px 18px 6px 19px;
-  text-decoration-line: none;
-  font-size: var(--main-services-title-font-size);
-  font-weight: var(--main-text-font-weight);
-  line-height: var(--main-hero-text-line-height);
-  color: var(--main-text-color);
-  border-radius: 24px;
-  border: 2px solid var(--main-text-color);
   width: 200px;
   height: 100vh;
   padding: 56px 24px 0 48px;
@@ -575,9 +513,6 @@ img {
   background-color: transparent;
   background-image: url(../images/closeicon.svg);
   background-size: 16px 16px;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: pointer;
   background-position: center;
   background-repeat: no-repeat;
   cursor: pointer;
@@ -663,10 +598,6 @@ img {
     height: 40px;
   }
 }
-.container {
-  padding: 0 24px;
-}
-
 .about-hero {
   padding-top: 40px;
   padding-bottom: 108px;
@@ -714,9 +645,6 @@ img {
 }
 
 @media only screen and (min-width: 768px) {
-  .container {
-    padding: 0 40px;
-  }
   .about-hero {
     padding-top: 56px;
     padding-bottom: 112px;
@@ -729,9 +657,6 @@ img {
   }
 }
 @media only screen and (min-width: 1030px) {
-  .container {
-    padding: 0 20px;
-  }
   .about-hero {
     padding-top: 45px;
     padding-bottom: 120px;

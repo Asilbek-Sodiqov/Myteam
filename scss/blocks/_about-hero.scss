@@ -1,10 +1,6 @@
 @use "../mixin" as m;
 @use "../variables" as v;
 
-.container {
-  padding: 0 24px;
-}
-
 .about-hero {
   padding-top: 40px;
   padding-bottom: 108px;
@@ -43,10 +39,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .container {
-    padding: 0 40px;
-  }
-
   .about-hero {
     padding-top: 56px;
     padding-bottom: 112px;
@@ -61,10 +53,6 @@
 }
 
 @media only screen and (min-width: 1030px) {
-  .container {
-    padding: 0 20px;
-  }
-
   .about-hero {
     padding-top: 45px;
     padding-bottom: 120px;
