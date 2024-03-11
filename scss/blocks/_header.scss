@@ -61,6 +61,11 @@
   font-weight: var(--main-text-font-weight);
   line-height: var(--main-hero-text-line-height);
   color: var(--main-text-color);
+  @include transition ($property:color);
+}
+
+.site-header__link:hover {
+  color: var(--main-started-background-color);
 }
 
 .site-header__contact {
@@ -73,6 +78,12 @@
   color: var(--main-text-color);
   border-radius: 24px;
   border: 2px solid var(--main-text-color);
+  transition: color 0.3s linear, background-color 0.3s linear;
+}
+
+.site-header__contact:hover {
+  color: var(--main-footer-background-color);
+  background-color: var(--main-text-color);
 }
 
 .unscrollbody {

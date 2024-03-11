@@ -38,6 +38,11 @@
   line-height: var(--main-text-line-height);
   text-decoration-line: none;
   color: var(--main-text-color);
+  @include transition ($property:color);
+}
+
+.site-footer__nav-link:hover {
+  color: var(--main-started-background-color);
 }
 
 .site-footer__address {
@@ -68,6 +73,19 @@
   @include list-unstyled;
   margin-bottom: 16px;
   column-gap: 16px;
+}
+
+.site-footer__social-link {
+  @include link-unstyled;
+}
+
+.site-footer__social-img {
+  color: var(--main-text-color);
+  @include transition ($property:color);
+}
+
+.site-footer__social-img:hover {
+  color: var( --main-started-background-color);
 }
 
 .site-footer__span {
@@ -134,6 +152,10 @@
     display: flex;
     align-items: start;
     flex-direction: row;
+  }
+
+  .site-footer__list {
+    align-items: start;
   }
 
   .site-footer__address-wrapper {
